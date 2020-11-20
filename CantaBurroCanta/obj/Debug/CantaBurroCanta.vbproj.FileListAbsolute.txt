@@ -1,0 +1,17 @@
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\bin\Debug\CantaBurroCanta.exe.config
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\bin\Debug\CantaBurroCanta.exe
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\bin\Debug\CantaBurroCanta.pdb
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\bin\Debug\CantaBurroCanta.xml
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.vbprojAssemblyReference.cache
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormParticipantes.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormProgramaParticipantes.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.Resources.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.vbproj.GenerateResource.cache
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.vbproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.exe
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.xml
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.pdb
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\bin\Debug\Oracle.DataAccess.dll
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.vbproj.CopyComplete
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\bin\Debug\MaterialSkin.dll
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormMenu.resources
