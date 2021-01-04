@@ -123,6 +123,7 @@ Partial Class FormParticipantes
         '
         Me.TB_edad.Location = New System.Drawing.Point(472, 102)
         Me.TB_edad.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TB_edad.MaxLength = 2
         Me.TB_edad.Name = "TB_edad"
         Me.TB_edad.Size = New System.Drawing.Size(153, 22)
         Me.TB_edad.TabIndex = 10

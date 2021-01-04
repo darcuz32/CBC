@@ -70,13 +70,13 @@ Public Class FormParticipantes
     End Sub
 
     Private Sub TB_id_participante_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TB_id_participante.KeyPress
-        If Not IsNumeric(e.KeyChar) Then
+        If Not IsNumeric(e.KeyChar) And e.KeyChar <> ChrW(Keys.Back) Then
             e.Handled = True
         End If
     End Sub
 
     Private Sub TB_edad_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TB_edad.KeyPress
-        If Not IsNumeric(e.KeyChar) Then
+        If Not IsNumeric(e.KeyChar) And e.KeyChar <> ChrW(Keys.Back) Then
             e.Handled = True
         End If
     End Sub
@@ -141,6 +141,59 @@ Public Class FormParticipantes
     End Sub
 
     Private Sub TB_id_participante_TextChanged(sender As Object, e As EventArgs) Handles TB_id_participante.TextChanged
+        If TB_id_participante.Text <> "" Then
+            'Busca  un país en particular
+            Dim participante As New Participante
+            'Llamamos al método que elimina el registro
+            participante.buscarParticipante()
+        End If
+    End Sub
+
+    Private Sub LBL_colonia_Click(sender As Object, e As EventArgs) Handles LBL_colonia.Click
+
+    End Sub
+
+    Private Sub LBL_genero_Click(sender As Object, e As EventArgs) Handles LBL_genero.Click
+
+    End Sub
+
+    Private Sub LBL_carrera_Click(sender As Object, e As EventArgs) Handles LBL_carrera.Click
+
+    End Sub
+
+    Private Sub TB_edad_TextChanged(sender As Object, e As EventArgs) Handles TB_edad.TextChanged
+
+    End Sub
+
+    Private Sub LBL_edad_Click(sender As Object, e As EventArgs) Handles LBL_edad.Click
+
+    End Sub
+
+    Private Sub TB_materno_TextChanged(sender As Object, e As EventArgs) Handles TB_materno.TextChanged
+
+    End Sub
+
+    Private Sub LBL_materno_Click(sender As Object, e As EventArgs) Handles LBL_materno.Click
+
+    End Sub
+
+    Private Sub TB_paterno_TextChanged(sender As Object, e As EventArgs) Handles TB_paterno.TextChanged
+
+    End Sub
+
+    Private Sub LBL_paterno_Click(sender As Object, e As EventArgs) Handles LBL_paterno.Click
+
+    End Sub
+
+    Private Sub TB_nombre_TextChanged(sender As Object, e As EventArgs) Handles TB_nombre.TextChanged
+
+    End Sub
+
+    Private Sub LBL_nombre_Click(sender As Object, e As EventArgs) Handles LBL_nombre.Click
+
+    End Sub
+
+    Private Sub LBL_id_participante_Click(sender As Object, e As EventArgs) Handles LBL_id_participante.Click
 
     End Sub
 End Class

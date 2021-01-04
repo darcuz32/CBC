@@ -159,6 +159,24 @@ Public Class ProgramaParticipantes
         End If
     End Function
 
+    Public Function verificarFecha() As Boolean
+        Dim strSQL As String
+        Dim xCnx As New Oracle
+        Dim xDT As DataTable
+        strSQL = "SELECT programaparticipantes.id_participante as ID" &
+                 " FROM programaparticipantes " &
+                 " INNER JOIN participantes ON participantes.id_participante = programaparticipantes.id_participante " &
+                 " WHERE programaparticipantes.id_participante = " & idParticipante &
+                 " AND programaparticipantes.fecha_participacion = '" & fecha & "'" &
+                 " ORDER BY participantes.paterno, participantes.materno asc"
+        verificarFecha = False
+        xDT = xCnx.objetoDataAdapter(strSQL)
+        If xDT.Rows.Count = 1 Then
+            verificarFecha = True
+        End If
+    End Function
+
+
 
     Public Sub agregarPrograma()
         Dim strSql As String

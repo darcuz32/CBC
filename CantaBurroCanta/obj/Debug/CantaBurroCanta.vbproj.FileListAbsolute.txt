@@ -15,3 +15,13 @@ C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\bin\Debug\Oracle.Dat
 C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.vbproj.CopyComplete
 C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\bin\Debug\MaterialSkin.dll
 C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormMenu.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormCiudades.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormColonias.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormEstados.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormLogin.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormGeneros.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormCarreras.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormCategorias.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormAuditorios.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormJueces.resources
+C:\Users\rober\source\repos\CantaBurroCanta\CantaBurroCanta\obj\Debug\CantaBurroCanta.FormCalificaciones.resources

@@ -95,12 +95,82 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calificacion.vb" />
+    <Compile Include="Carrera.vb" />
+    <Compile Include="Categoria.vb" />
+    <Compile Include="Ciudad.vb" />
+    <Compile Include="Auditorio.vb" />
+    <Compile Include="Colonia.vb" />
+    <Compile Include="Estado.vb" />
+    <Compile Include="FormAuditorios.Designer.vb">
+      <DependentUpon>FormAuditorios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAuditorios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalificaciones.Designer.vb">
+      <DependentUpon>FormCalificaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalificaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCarreras.Designer.vb">
+      <DependentUpon>FormCarreras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCarreras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCategorias.Designer.vb">
+      <DependentUpon>FormCategorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCategorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCiudades.Designer.vb">
+      <DependentUpon>FormCiudades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCiudades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormColonias.Designer.vb">
+      <DependentUpon>FormColonias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormColonias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEstados.Designer.vb">
+      <DependentUpon>FormEstados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEstados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGeneros.Designer.vb">
+      <DependentUpon>FormGeneros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormGeneros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormMenu.Designer.vb">
       <DependentUpon>FormMenu.vb</DependentUpon>
     </Compile>
     <Compile Include="FormMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormJueces.Designer.vb">
+      <DependentUpon>FormJueces.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormJueces.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Genero.vb" />
+    <Compile Include="Juez.vb" />
+    <Compile Include="Login.vb" />
     <Compile Include="ProgramaParticipantes.vb" />
     <Compile Include="Globales.vb" />
     <Compile Include="Oracle.vb" />
@@ -136,6 +206,33 @@
     <Compile Include="Participante.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormAuditorios.resx">
+      <DependentUpon>FormAuditorios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalificaciones.resx">
+      <DependentUpon>FormCalificaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCarreras.resx">
+      <DependentUpon>FormCarreras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCategorias.resx">
+      <DependentUpon>FormCategorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCiudades.resx">
+      <DependentUpon>FormCiudades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormColonias.resx">
+      <DependentUpon>FormColonias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEstados.resx">
+      <DependentUpon>FormEstados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGeneros.resx">
+      <DependentUpon>FormGeneros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.vb</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +241,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormProgramaParticipantes.resx">
       <DependentUpon>FormProgramaParticipantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJueces.resx">
+      <DependentUpon>FormJueces.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

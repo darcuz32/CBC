@@ -155,6 +155,45 @@ Public Class Participante
         DGV_participantes.Columns.Item(7).Width = 90
     End Sub
 
+    Public Function buscarParticipante() As Boolean
+        Dim strSQL As String
+        Dim xCnx As New Oracle
+        Dim xDT As DataTable
+
+        'Igual que en el insert, la parte fija de la sintaxis del UPDATE se escribe entre comillas,
+        ' el simbolo & se usa para continuar la línea, y los valores en éste caso son las variables o las
+        ' cajas de texto del formulario VARCHAR y DATE se esciben entre apostrofes
+
+        strSQL = "SELECT id_participante as ID, participantes.nombre as Nombre, participantes.paterno as Paterno, participantes.materno as Materno, " &
+                 " colonias.nombre as Colonia, carreras.descripcion as Carrera, generos.descripcion as Genero, participantes.edad as Edad " &
+                 " FROM participantes " &
+                 " INNER JOIN colonias ON colonias.id_colonia = participantes.id_colonia " &
+                 " INNER JOIN carreras ON carreras.id_carrera = participantes.id_carrera " &
+                 " INNER JOIN generos ON generos.id_genero = participantes.id_genero " &
+                 " WHERE id_participante =  '" & formDeParticipantes.TB_id_participante.Text & "'" &
+                  " ORDER BY participantes.paterno, participantes.materno asc"
+
+        buscarParticipante = False
+        xDT = xCnx.objetoDataAdapter(strSQL)
+        If xDT.Rows.Count = 1 Then
+            If IsDBNull(xDT.Rows(0)("Id")) Then
+                idParticipante = 0
+            Else
+                idParticipante = CStr(xDT.Rows(0)("ID"))
+                formDeParticipantes.TB_nombre.Text = CStr(xDT.Rows(0)("Nombre"))
+                formDeParticipantes.TB_paterno.Text = CStr(xDT.Rows(0)("Paterno"))
+                formDeParticipantes.TB_materno.Text = CStr(xDT.Rows(0)("Materno"))
+                formDeParticipantes.TB_edad.Text = CStr(xDT.Rows(0)("Edad"))
+                formDeParticipantes.CB_carrera.Text = CStr(xDT.Rows(0)("Carrera"))
+                formDeParticipantes.CB_genero.Text = CStr(xDT.Rows(0)("Genero"))
+                formDeParticipantes.CB_colonia.Text = CStr(xDT.Rows(0)("Colonia"))
+            End If
+
+
+            buscarParticipante = True
+        End If
+    End Function
+
     Public Function obtenerIdCarrera() As Boolean
         Dim strSQL As String
         Dim xCnx As New Oracle

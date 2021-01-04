@@ -18,7 +18,7 @@
     Private Sub BTN_guardar_Click(sender As System.Object, e As System.EventArgs) Handles BTN_guardar.Click
 
         If TB_fecha.Text = "" Then
-            MessageBox.Show("Capturar id del participante")
+            MessageBox.Show("Capturar la fecha")
         ElseIf CB_auditorio.Text = "" Then
             MessageBox.Show("Seleccionar el auditorio")
         ElseIf CB_categoria.Text = "" Then
@@ -29,7 +29,11 @@
 
             Dim programa As New ProgramaParticipantes(idCategoria, idAuditorio, TB_fecha.Text, idParticipante)
 
-            If programa.obtenerIdPrograma() = False Then
+            If programa.verificarFecha() = True Then
+
+                MessageBox.Show("Ya existe una participación registrada para este participante en esta fecha")
+
+            ElseIf programa.obtenerIdPrograma() = False Then
 
                 programa.agregarPrograma()
 
