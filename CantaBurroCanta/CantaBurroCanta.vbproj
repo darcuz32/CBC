@@ -31,7 +31,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
@@ -54,7 +54,7 @@
     <OptionExplicit>On</OptionExplicit>
   </PropertyGroup>
   <PropertyGroup>
-    <OptionCompare>Binary</OptionCompare>
+    <OptionCompare>Text</OptionCompare>
   </PropertyGroup>
   <PropertyGroup>
     <OptionStrict>Off</OptionStrict>
@@ -63,9 +63,6 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MaterialSkin, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MaterialSkin.2.2.1.3\lib\net461\MaterialSkin.dll</HintPath>
-    </Reference>
     <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\oraclexe\app\oracle\product\11.2.0\server\odp.net\bin\4\Oracle.DataAccess.dll</HintPath>
@@ -95,95 +92,95 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calificacion.vb" />
-    <Compile Include="Carrera.vb" />
-    <Compile Include="Categoria.vb" />
-    <Compile Include="Ciudad.vb" />
-    <Compile Include="Auditorio.vb" />
-    <Compile Include="Colonia.vb" />
-    <Compile Include="Estado.vb" />
-    <Compile Include="FormAuditorios.Designer.vb">
+    <Compile Include="Clase\Calificacion.vb" />
+    <Compile Include="Clase\Carrera.vb" />
+    <Compile Include="Clase\Categoria.vb" />
+    <Compile Include="Clase\Ciudad.vb" />
+    <Compile Include="Clase\Auditorio.vb" />
+    <Compile Include="Clase\Colonia.vb" />
+    <Compile Include="Clase\Estado.vb" />
+    <Compile Include="Formularios\FormAuditorios.Designer.vb">
       <DependentUpon>FormAuditorios.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormAuditorios.vb">
+    <Compile Include="Formularios\FormAuditorios.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCalificaciones.Designer.vb">
+    <Compile Include="Formularios\FormCalificaciones.Designer.vb">
       <DependentUpon>FormCalificaciones.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormCalificaciones.vb">
+    <Compile Include="Formularios\FormCalificaciones.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCarreras.Designer.vb">
+    <Compile Include="Formularios\FormCarreras.Designer.vb">
       <DependentUpon>FormCarreras.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormCarreras.vb">
+    <Compile Include="Formularios\FormCarreras.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCategorias.Designer.vb">
+    <Compile Include="Formularios\FormCategorias.Designer.vb">
       <DependentUpon>FormCategorias.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormCategorias.vb">
+    <Compile Include="Formularios\FormCategorias.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCiudades.Designer.vb">
+    <Compile Include="Formularios\FormCiudades.Designer.vb">
       <DependentUpon>FormCiudades.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormCiudades.vb">
+    <Compile Include="Formularios\FormCiudades.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormColonias.Designer.vb">
+    <Compile Include="Formularios\FormColonias.Designer.vb">
       <DependentUpon>FormColonias.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormColonias.vb">
+    <Compile Include="Formularios\FormColonias.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormEstados.Designer.vb">
+    <Compile Include="Formularios\FormEstados.Designer.vb">
       <DependentUpon>FormEstados.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormEstados.vb">
+    <Compile Include="Formularios\FormEstados.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormGeneros.Designer.vb">
+    <Compile Include="Formularios\FormGeneros.Designer.vb">
       <DependentUpon>FormGeneros.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormGeneros.vb">
+    <Compile Include="Formularios\FormGeneros.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogin.Designer.vb">
+    <Compile Include="Formularios\FormLogin.Designer.vb">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormLogin.vb">
+    <Compile Include="Formularios\FormLogin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMenu.Designer.vb">
+    <Compile Include="Formularios\FormMenu.Designer.vb">
       <DependentUpon>FormMenu.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormMenu.vb">
+    <Compile Include="Formularios\FormMenu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormJueces.Designer.vb">
+    <Compile Include="Formularios\FormJueces.Designer.vb">
       <DependentUpon>FormJueces.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormJueces.vb">
+    <Compile Include="Formularios\FormJueces.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Genero.vb" />
-    <Compile Include="Juez.vb" />
-    <Compile Include="Login.vb" />
-    <Compile Include="ProgramaParticipantes.vb" />
+    <Compile Include="Clase\Genero.vb" />
+    <Compile Include="Clase\Juez.vb" />
+    <Compile Include="Clase\Login.vb" />
+    <Compile Include="Clase\ProgramaParticipantes.vb" />
     <Compile Include="Globales.vb" />
-    <Compile Include="Oracle.vb" />
-    <Compile Include="FormProgramaParticipantes.Designer.vb">
+    <Compile Include="ConectaBD\Oracle.vb" />
+    <Compile Include="Formularios\FormProgramaParticipantes.Designer.vb">
       <DependentUpon>FormProgramaParticipantes.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormProgramaParticipantes.vb">
+    <Compile Include="Formularios\FormProgramaParticipantes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormParticipantes.vb">
+    <Compile Include="Formularios\FormParticipantes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormParticipantes.Designer.vb">
+    <Compile Include="Formularios\FormParticipantes.Designer.vb">
       <DependentUpon>FormParticipantes.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
@@ -203,46 +200,46 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Participante.vb" />
+    <Compile Include="Clase\Participante.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormAuditorios.resx">
+    <EmbeddedResource Include="Formularios\FormAuditorios.resx">
       <DependentUpon>FormAuditorios.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCalificaciones.resx">
+    <EmbeddedResource Include="Formularios\FormCalificaciones.resx">
       <DependentUpon>FormCalificaciones.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCarreras.resx">
+    <EmbeddedResource Include="Formularios\FormCarreras.resx">
       <DependentUpon>FormCarreras.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCategorias.resx">
+    <EmbeddedResource Include="Formularios\FormCategorias.resx">
       <DependentUpon>FormCategorias.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCiudades.resx">
+    <EmbeddedResource Include="Formularios\FormCiudades.resx">
       <DependentUpon>FormCiudades.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormColonias.resx">
+    <EmbeddedResource Include="Formularios\FormColonias.resx">
       <DependentUpon>FormColonias.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormEstados.resx">
+    <EmbeddedResource Include="Formularios\FormEstados.resx">
       <DependentUpon>FormEstados.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormGeneros.resx">
+    <EmbeddedResource Include="Formularios\FormGeneros.resx">
       <DependentUpon>FormGeneros.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogin.resx">
+    <EmbeddedResource Include="Formularios\FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMenu.resx">
+    <EmbeddedResource Include="Formularios\FormMenu.resx">
       <DependentUpon>FormMenu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormParticipantes.resx">
+    <EmbeddedResource Include="Formularios\FormParticipantes.resx">
       <DependentUpon>FormParticipantes.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProgramaParticipantes.resx">
+    <EmbeddedResource Include="Formularios\FormProgramaParticipantes.resx">
       <DependentUpon>FormProgramaParticipantes.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormJueces.resx">
+    <EmbeddedResource Include="Formularios\FormJueces.resx">
       <DependentUpon>FormJueces.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -277,5 +274,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
