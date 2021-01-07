@@ -42,132 +42,128 @@ Partial Class FormJueces
         '
         'BTN_nuevo
         '
-        Me.BTN_nuevo.Location = New System.Drawing.Point(57, 295)
-        Me.BTN_nuevo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BTN_nuevo.Location = New System.Drawing.Point(76, 363)
+        Me.BTN_nuevo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BTN_nuevo.Name = "BTN_nuevo"
-        Me.BTN_nuevo.Size = New System.Drawing.Size(68, 28)
-        Me.BTN_nuevo.TabIndex = 68
+        Me.BTN_nuevo.Size = New System.Drawing.Size(91, 34)
+        Me.BTN_nuevo.TabIndex = 5
         Me.BTN_nuevo.Text = "&Nuevo"
         Me.BTN_nuevo.UseVisualStyleBackColor = True
         '
         'BTN_salir
         '
-        Me.BTN_salir.Location = New System.Drawing.Point(465, 295)
-        Me.BTN_salir.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BTN_salir.Location = New System.Drawing.Point(620, 363)
+        Me.BTN_salir.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BTN_salir.Name = "BTN_salir"
-        Me.BTN_salir.Size = New System.Drawing.Size(68, 28)
-        Me.BTN_salir.TabIndex = 67
+        Me.BTN_salir.Size = New System.Drawing.Size(91, 34)
+        Me.BTN_salir.TabIndex = 8
         Me.BTN_salir.Text = "&Salir"
         Me.BTN_salir.UseVisualStyleBackColor = True
         '
         'BTN_eliminar
         '
-        Me.BTN_eliminar.Location = New System.Drawing.Point(340, 295)
-        Me.BTN_eliminar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BTN_eliminar.Location = New System.Drawing.Point(453, 363)
+        Me.BTN_eliminar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BTN_eliminar.Name = "BTN_eliminar"
-        Me.BTN_eliminar.Size = New System.Drawing.Size(65, 28)
-        Me.BTN_eliminar.TabIndex = 66
+        Me.BTN_eliminar.Size = New System.Drawing.Size(87, 34)
+        Me.BTN_eliminar.TabIndex = 7
         Me.BTN_eliminar.Text = "&Eliminar"
         Me.BTN_eliminar.UseVisualStyleBackColor = True
         '
         'BTN_guardar
         '
-        Me.BTN_guardar.Location = New System.Drawing.Point(205, 295)
-        Me.BTN_guardar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BTN_guardar.Location = New System.Drawing.Point(273, 363)
+        Me.BTN_guardar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BTN_guardar.Name = "BTN_guardar"
-        Me.BTN_guardar.Size = New System.Drawing.Size(68, 28)
-        Me.BTN_guardar.TabIndex = 65
+        Me.BTN_guardar.Size = New System.Drawing.Size(91, 34)
+        Me.BTN_guardar.TabIndex = 6
         Me.BTN_guardar.Text = "&Guardar"
         Me.BTN_guardar.UseVisualStyleBackColor = True
         '
         'TB_nombre_juez
         '
-        Me.TB_nombre_juez.Location = New System.Drawing.Point(382, 30)
-        Me.TB_nombre_juez.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TB_nombre_juez.Location = New System.Drawing.Point(509, 37)
+        Me.TB_nombre_juez.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TB_nombre_juez.Name = "TB_nombre_juez"
-        Me.TB_nombre_juez.Size = New System.Drawing.Size(116, 20)
+        Me.TB_nombre_juez.Size = New System.Drawing.Size(153, 22)
         Me.TB_nombre_juez.TabIndex = 2
         '
         'LBL_nombre
         '
         Me.LBL_nombre.AutoSize = True
-        Me.LBL_nombre.Location = New System.Drawing.Point(314, 30)
-        Me.LBL_nombre.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LBL_nombre.Location = New System.Drawing.Point(419, 37)
         Me.LBL_nombre.Name = "LBL_nombre"
-        Me.LBL_nombre.Size = New System.Drawing.Size(47, 13)
+        Me.LBL_nombre.Size = New System.Drawing.Size(62, 17)
         Me.LBL_nombre.TabIndex = 63
         Me.LBL_nombre.Text = "Nombre:"
         '
         'TB_id_juez
         '
-        Me.TB_id_juez.Location = New System.Drawing.Point(164, 32)
-        Me.TB_id_juez.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TB_id_juez.Location = New System.Drawing.Point(219, 39)
+        Me.TB_id_juez.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TB_id_juez.Name = "TB_id_juez"
-        Me.TB_id_juez.Size = New System.Drawing.Size(116, 20)
+        Me.TB_id_juez.Size = New System.Drawing.Size(153, 22)
         Me.TB_id_juez.TabIndex = 1
         '
         'LBL_id_participante
         '
         Me.LBL_id_participante.AutoSize = True
-        Me.LBL_id_participante.Location = New System.Drawing.Point(77, 32)
-        Me.LBL_id_participante.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LBL_id_participante.Location = New System.Drawing.Point(103, 39)
         Me.LBL_id_participante.Name = "LBL_id_participante"
-        Me.LBL_id_participante.Size = New System.Drawing.Size(44, 13)
+        Me.LBL_id_participante.Size = New System.Drawing.Size(57, 17)
         Me.LBL_id_participante.TabIndex = 61
         Me.LBL_id_participante.Text = "Id Juez:"
         '
         'DGV_jueces
         '
         Me.DGV_jueces.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV_jueces.Location = New System.Drawing.Point(38, 103)
-        Me.DGV_jueces.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DGV_jueces.Location = New System.Drawing.Point(51, 127)
+        Me.DGV_jueces.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DGV_jueces.Name = "DGV_jueces"
         Me.DGV_jueces.RowHeadersWidth = 51
         Me.DGV_jueces.RowTemplate.Height = 24
-        Me.DGV_jueces.Size = New System.Drawing.Size(526, 176)
-        Me.DGV_jueces.TabIndex = 60
+        Me.DGV_jueces.Size = New System.Drawing.Size(701, 217)
+        Me.DGV_jueces.TabIndex = 9
         '
         'TB_materno_juez
         '
-        Me.TB_materno_juez.Location = New System.Drawing.Point(382, 63)
-        Me.TB_materno_juez.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TB_materno_juez.Location = New System.Drawing.Point(509, 78)
+        Me.TB_materno_juez.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TB_materno_juez.Name = "TB_materno_juez"
-        Me.TB_materno_juez.Size = New System.Drawing.Size(116, 20)
+        Me.TB_materno_juez.Size = New System.Drawing.Size(153, 22)
         Me.TB_materno_juez.TabIndex = 4
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(314, 63)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(419, 78)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 13)
+        Me.Label1.Size = New System.Drawing.Size(64, 17)
         Me.Label1.TabIndex = 71
         Me.Label1.Text = "Materno:"
         '
         'TB_paterno_juez
         '
-        Me.TB_paterno_juez.Location = New System.Drawing.Point(164, 65)
-        Me.TB_paterno_juez.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TB_paterno_juez.Location = New System.Drawing.Point(219, 80)
+        Me.TB_paterno_juez.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TB_paterno_juez.Name = "TB_paterno_juez"
-        Me.TB_paterno_juez.Size = New System.Drawing.Size(116, 20)
+        Me.TB_paterno_juez.Size = New System.Drawing.Size(153, 22)
         Me.TB_paterno_juez.TabIndex = 3
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(77, 65)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(103, 80)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(47, 13)
+        Me.Label2.Size = New System.Drawing.Size(62, 17)
         Me.Label2.TabIndex = 69
         Me.Label2.Text = "Paterno:"
         '
         'FormJueces
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(600, 366)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.TB_materno_juez)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TB_paterno_juez)
@@ -181,7 +177,7 @@ Partial Class FormJueces
         Me.Controls.Add(Me.TB_id_juez)
         Me.Controls.Add(Me.LBL_id_participante)
         Me.Controls.Add(Me.DGV_jueces)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "FormJueces"
         Me.Text = "Agregar Juez"
         CType(Me.DGV_jueces, System.ComponentModel.ISupportInitialize).EndInit()

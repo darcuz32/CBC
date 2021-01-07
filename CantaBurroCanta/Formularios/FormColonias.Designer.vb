@@ -43,118 +43,132 @@ Partial Class FormColonias
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(17, 73)
+        Me.Label1.Location = New System.Drawing.Point(23, 90)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(59, 13)
+        Me.Label1.Size = New System.Drawing.Size(76, 17)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "ID Colonia:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(244, 38)
+        Me.Label2.Location = New System.Drawing.Point(325, 47)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(43, 13)
+        Me.Label2.Size = New System.Drawing.Size(56, 17)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Ciudad:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(182, 73)
+        Me.Label3.Location = New System.Drawing.Point(243, 90)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(85, 13)
+        Me.Label3.Size = New System.Drawing.Size(113, 17)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Nombre Colonia:"
         '
         'TB_id_colonia
         '
-        Me.TB_id_colonia.Location = New System.Drawing.Point(76, 70)
+        Me.TB_id_colonia.Location = New System.Drawing.Point(101, 86)
+        Me.TB_id_colonia.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TB_id_colonia.Name = "TB_id_colonia"
-        Me.TB_id_colonia.Size = New System.Drawing.Size(100, 20)
+        Me.TB_id_colonia.Size = New System.Drawing.Size(132, 22)
         Me.TB_id_colonia.TabIndex = 3
         '
         'CB_ciudad
         '
         Me.CB_ciudad.FormattingEnabled = True
-        Me.CB_ciudad.Location = New System.Drawing.Point(293, 30)
+        Me.CB_ciudad.Location = New System.Drawing.Point(391, 37)
+        Me.CB_ciudad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CB_ciudad.Name = "CB_ciudad"
-        Me.CB_ciudad.Size = New System.Drawing.Size(169, 21)
+        Me.CB_ciudad.Size = New System.Drawing.Size(224, 24)
         Me.CB_ciudad.TabIndex = 2
         '
         'TB_nombre
         '
-        Me.TB_nombre.Location = New System.Drawing.Point(269, 70)
+        Me.TB_nombre.Location = New System.Drawing.Point(359, 86)
+        Me.TB_nombre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TB_nombre.Name = "TB_nombre"
-        Me.TB_nombre.Size = New System.Drawing.Size(193, 20)
+        Me.TB_nombre.Size = New System.Drawing.Size(256, 22)
         Me.TB_nombre.TabIndex = 4
         '
         'DGV_colonias
         '
         Me.DGV_colonias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV_colonias.Location = New System.Drawing.Point(12, 136)
+        Me.DGV_colonias.Location = New System.Drawing.Point(16, 167)
+        Me.DGV_colonias.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DGV_colonias.Name = "DGV_colonias"
-        Me.DGV_colonias.Size = New System.Drawing.Size(450, 151)
-        Me.DGV_colonias.TabIndex = 6
+        Me.DGV_colonias.RowHeadersWidth = 51
+        Me.DGV_colonias.Size = New System.Drawing.Size(600, 186)
+        Me.DGV_colonias.TabIndex = 9
         '
         'BTN_nuevo
         '
-        Me.BTN_nuevo.Location = New System.Drawing.Point(24, 304)
+        Me.BTN_nuevo.Location = New System.Drawing.Point(32, 374)
+        Me.BTN_nuevo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BTN_nuevo.Name = "BTN_nuevo"
-        Me.BTN_nuevo.Size = New System.Drawing.Size(75, 23)
-        Me.BTN_nuevo.TabIndex = 7
+        Me.BTN_nuevo.Size = New System.Drawing.Size(100, 28)
+        Me.BTN_nuevo.TabIndex = 5
         Me.BTN_nuevo.Text = "&Nuevo"
         Me.BTN_nuevo.UseVisualStyleBackColor = True
         '
         'BTN_guardar
         '
-        Me.BTN_guardar.Location = New System.Drawing.Point(138, 304)
+        Me.BTN_guardar.Location = New System.Drawing.Point(184, 374)
+        Me.BTN_guardar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BTN_guardar.Name = "BTN_guardar"
-        Me.BTN_guardar.Size = New System.Drawing.Size(75, 23)
-        Me.BTN_guardar.TabIndex = 8
+        Me.BTN_guardar.Size = New System.Drawing.Size(100, 28)
+        Me.BTN_guardar.TabIndex = 6
         Me.BTN_guardar.Text = "&Guardar"
         Me.BTN_guardar.UseVisualStyleBackColor = True
         '
         'BTN_eliminar
         '
-        Me.BTN_eliminar.Location = New System.Drawing.Point(254, 304)
+        Me.BTN_eliminar.Location = New System.Drawing.Point(339, 374)
+        Me.BTN_eliminar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BTN_eliminar.Name = "BTN_eliminar"
-        Me.BTN_eliminar.Size = New System.Drawing.Size(75, 23)
-        Me.BTN_eliminar.TabIndex = 9
+        Me.BTN_eliminar.Size = New System.Drawing.Size(100, 28)
+        Me.BTN_eliminar.TabIndex = 7
         Me.BTN_eliminar.Text = "&Eliminar"
         Me.BTN_eliminar.UseVisualStyleBackColor = True
         '
         'BTN_salir
         '
-        Me.BTN_salir.Location = New System.Drawing.Point(371, 304)
+        Me.BTN_salir.Location = New System.Drawing.Point(495, 374)
+        Me.BTN_salir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BTN_salir.Name = "BTN_salir"
-        Me.BTN_salir.Size = New System.Drawing.Size(75, 23)
-        Me.BTN_salir.TabIndex = 10
+        Me.BTN_salir.Size = New System.Drawing.Size(100, 28)
+        Me.BTN_salir.TabIndex = 8
         Me.BTN_salir.Text = "&Salir"
         Me.BTN_salir.UseVisualStyleBackColor = True
         '
         'CB_estados
         '
         Me.CB_estados.FormattingEnabled = True
-        Me.CB_estados.Location = New System.Drawing.Point(66, 30)
+        Me.CB_estados.Location = New System.Drawing.Point(88, 37)
+        Me.CB_estados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CB_estados.Name = "CB_estados"
-        Me.CB_estados.Size = New System.Drawing.Size(169, 21)
+        Me.CB_estados.Size = New System.Drawing.Size(224, 24)
         Me.CB_estados.TabIndex = 1
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(21, 36)
+        Me.Label4.Location = New System.Drawing.Point(28, 44)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(43, 13)
+        Me.Label4.Size = New System.Drawing.Size(56, 17)
         Me.Label4.TabIndex = 12
         Me.Label4.Text = "Estado:"
         '
         'FormColonias
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(474, 339)
+        Me.ClientSize = New System.Drawing.Size(632, 417)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.CB_estados)
         Me.Controls.Add(Me.BTN_salir)
@@ -168,6 +182,7 @@ Partial Class FormColonias
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FormColonias"
         Me.Text = "Colonias"
         CType(Me.DGV_colonias, System.ComponentModel.ISupportInitialize).EndInit()

@@ -42,33 +42,33 @@ Partial Class FormProgramaParticipantes
         '
         'BTN_salir
         '
-        Me.BTN_salir.Location = New System.Drawing.Point(406, 312)
-        Me.BTN_salir.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BTN_salir.Location = New System.Drawing.Point(541, 384)
+        Me.BTN_salir.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BTN_salir.Name = "BTN_salir"
-        Me.BTN_salir.Size = New System.Drawing.Size(68, 28)
-        Me.BTN_salir.TabIndex = 39
+        Me.BTN_salir.Size = New System.Drawing.Size(91, 34)
+        Me.BTN_salir.TabIndex = 8
         Me.BTN_salir.Text = "&Salir"
         Me.BTN_salir.UseVisualStyleBackColor = True
         Me.BTN_salir.UseWaitCursor = True
         '
         'BTN_eliminar
         '
-        Me.BTN_eliminar.Location = New System.Drawing.Point(297, 312)
-        Me.BTN_eliminar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BTN_eliminar.Location = New System.Drawing.Point(396, 384)
+        Me.BTN_eliminar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BTN_eliminar.Name = "BTN_eliminar"
-        Me.BTN_eliminar.Size = New System.Drawing.Size(65, 28)
-        Me.BTN_eliminar.TabIndex = 38
+        Me.BTN_eliminar.Size = New System.Drawing.Size(87, 34)
+        Me.BTN_eliminar.TabIndex = 7
         Me.BTN_eliminar.Text = "&Eliminar"
         Me.BTN_eliminar.UseVisualStyleBackColor = True
         Me.BTN_eliminar.UseWaitCursor = True
         '
         'BTN_guardar
         '
-        Me.BTN_guardar.Location = New System.Drawing.Point(188, 312)
-        Me.BTN_guardar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BTN_guardar.Location = New System.Drawing.Point(251, 384)
+        Me.BTN_guardar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BTN_guardar.Name = "BTN_guardar"
-        Me.BTN_guardar.Size = New System.Drawing.Size(68, 28)
-        Me.BTN_guardar.TabIndex = 37
+        Me.BTN_guardar.Size = New System.Drawing.Size(91, 34)
+        Me.BTN_guardar.TabIndex = 6
         Me.BTN_guardar.Text = "&Guardar"
         Me.BTN_guardar.UseVisualStyleBackColor = True
         Me.BTN_guardar.UseWaitCursor = True
@@ -76,30 +76,28 @@ Partial Class FormProgramaParticipantes
         'LBL_auditorio
         '
         Me.LBL_auditorio.AutoSize = True
-        Me.LBL_auditorio.Location = New System.Drawing.Point(84, 76)
-        Me.LBL_auditorio.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LBL_auditorio.Location = New System.Drawing.Point(112, 94)
         Me.LBL_auditorio.Name = "LBL_auditorio"
-        Me.LBL_auditorio.Size = New System.Drawing.Size(51, 13)
+        Me.LBL_auditorio.Size = New System.Drawing.Size(68, 17)
         Me.LBL_auditorio.TabIndex = 27
         Me.LBL_auditorio.Text = "Auditorio:"
         Me.LBL_auditorio.UseWaitCursor = True
         '
         'TB_fecha
         '
-        Me.TB_fecha.Location = New System.Drawing.Point(358, 75)
-        Me.TB_fecha.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TB_fecha.Location = New System.Drawing.Point(477, 92)
+        Me.TB_fecha.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TB_fecha.Name = "TB_fecha"
-        Me.TB_fecha.Size = New System.Drawing.Size(116, 20)
+        Me.TB_fecha.Size = New System.Drawing.Size(153, 22)
         Me.TB_fecha.TabIndex = 4
         Me.TB_fecha.UseWaitCursor = True
         '
         'LBL_paterno
         '
         Me.LBL_paterno.AutoSize = True
-        Me.LBL_paterno.Location = New System.Drawing.Point(302, 73)
-        Me.LBL_paterno.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LBL_paterno.Location = New System.Drawing.Point(403, 90)
         Me.LBL_paterno.Name = "LBL_paterno"
-        Me.LBL_paterno.Size = New System.Drawing.Size(40, 13)
+        Me.LBL_paterno.Size = New System.Drawing.Size(51, 17)
         Me.LBL_paterno.TabIndex = 25
         Me.LBL_paterno.Text = "Fecha:"
         Me.LBL_paterno.UseWaitCursor = True
@@ -107,10 +105,9 @@ Partial Class FormProgramaParticipantes
         'LBL_categoria
         '
         Me.LBL_categoria.AutoSize = True
-        Me.LBL_categoria.Location = New System.Drawing.Point(302, 27)
-        Me.LBL_categoria.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LBL_categoria.Location = New System.Drawing.Point(403, 33)
         Me.LBL_categoria.Name = "LBL_categoria"
-        Me.LBL_categoria.Size = New System.Drawing.Size(55, 13)
+        Me.LBL_categoria.Size = New System.Drawing.Size(73, 17)
         Me.LBL_categoria.TabIndex = 23
         Me.LBL_categoria.Text = "Categoria:"
         Me.LBL_categoria.UseWaitCursor = True
@@ -118,10 +115,9 @@ Partial Class FormProgramaParticipantes
         'LBL_participante
         '
         Me.LBL_participante.AutoSize = True
-        Me.LBL_participante.Location = New System.Drawing.Point(62, 27)
-        Me.LBL_participante.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LBL_participante.Location = New System.Drawing.Point(83, 33)
         Me.LBL_participante.Name = "LBL_participante"
-        Me.LBL_participante.Size = New System.Drawing.Size(66, 13)
+        Me.LBL_participante.Size = New System.Drawing.Size(87, 17)
         Me.LBL_participante.TabIndex = 21
         Me.LBL_participante.Text = "Participante:"
         Me.LBL_participante.UseWaitCursor = True
@@ -129,61 +125,61 @@ Partial Class FormProgramaParticipantes
         'DGV_programa
         '
         Me.DGV_programa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV_programa.Location = New System.Drawing.Point(28, 107)
-        Me.DGV_programa.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DGV_programa.Location = New System.Drawing.Point(37, 132)
+        Me.DGV_programa.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DGV_programa.Name = "DGV_programa"
         Me.DGV_programa.RowHeadersWidth = 51
         Me.DGV_programa.RowTemplate.Height = 24
-        Me.DGV_programa.Size = New System.Drawing.Size(524, 176)
-        Me.DGV_programa.TabIndex = 20
+        Me.DGV_programa.Size = New System.Drawing.Size(699, 217)
+        Me.DGV_programa.TabIndex = 9
         Me.DGV_programa.UseWaitCursor = True
         '
         'CB_participante
         '
         Me.CB_participante.FormattingEnabled = True
-        Me.CB_participante.Location = New System.Drawing.Point(134, 24)
-        Me.CB_participante.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CB_participante.Location = New System.Drawing.Point(179, 30)
+        Me.CB_participante.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CB_participante.Name = "CB_participante"
-        Me.CB_participante.Size = New System.Drawing.Size(116, 21)
+        Me.CB_participante.Size = New System.Drawing.Size(153, 24)
         Me.CB_participante.TabIndex = 1
         Me.CB_participante.UseWaitCursor = True
         '
         'CB_categoria
         '
         Me.CB_categoria.FormattingEnabled = True
-        Me.CB_categoria.Location = New System.Drawing.Point(358, 24)
-        Me.CB_categoria.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CB_categoria.Location = New System.Drawing.Point(477, 30)
+        Me.CB_categoria.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CB_categoria.Name = "CB_categoria"
-        Me.CB_categoria.Size = New System.Drawing.Size(116, 21)
+        Me.CB_categoria.Size = New System.Drawing.Size(153, 24)
         Me.CB_categoria.TabIndex = 2
         Me.CB_categoria.UseWaitCursor = True
         '
         'CB_auditorio
         '
         Me.CB_auditorio.FormattingEnabled = True
-        Me.CB_auditorio.Location = New System.Drawing.Point(134, 73)
-        Me.CB_auditorio.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CB_auditorio.Location = New System.Drawing.Point(179, 90)
+        Me.CB_auditorio.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CB_auditorio.Name = "CB_auditorio"
-        Me.CB_auditorio.Size = New System.Drawing.Size(116, 21)
+        Me.CB_auditorio.Size = New System.Drawing.Size(153, 24)
         Me.CB_auditorio.TabIndex = 3
         Me.CB_auditorio.UseWaitCursor = True
         '
         'BTN_nuevo
         '
-        Me.BTN_nuevo.Location = New System.Drawing.Point(80, 312)
-        Me.BTN_nuevo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BTN_nuevo.Location = New System.Drawing.Point(107, 384)
+        Me.BTN_nuevo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BTN_nuevo.Name = "BTN_nuevo"
-        Me.BTN_nuevo.Size = New System.Drawing.Size(68, 28)
-        Me.BTN_nuevo.TabIndex = 43
+        Me.BTN_nuevo.Size = New System.Drawing.Size(91, 34)
+        Me.BTN_nuevo.TabIndex = 5
         Me.BTN_nuevo.Text = "&Nuevo"
         Me.BTN_nuevo.UseVisualStyleBackColor = True
         Me.BTN_nuevo.UseWaitCursor = True
         '
         'FormProgramaParticipantes
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(584, 357)
+        Me.ClientSize = New System.Drawing.Size(779, 439)
         Me.Controls.Add(Me.BTN_nuevo)
         Me.Controls.Add(Me.CB_auditorio)
         Me.Controls.Add(Me.CB_categoria)
@@ -197,7 +193,7 @@ Partial Class FormProgramaParticipantes
         Me.Controls.Add(Me.LBL_categoria)
         Me.Controls.Add(Me.LBL_participante)
         Me.Controls.Add(Me.DGV_programa)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "FormProgramaParticipantes"
         Me.Text = "Agregar Participante al Programa"
         Me.UseWaitCursor = True
